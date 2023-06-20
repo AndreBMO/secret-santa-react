@@ -1,6 +1,7 @@
 /* MainScreen.module.css */
 
 .container {
+    background-image: url('../../assets/images/santa.jpg');
     display: flex;
     flex-direction: column;
     align-items: center;
