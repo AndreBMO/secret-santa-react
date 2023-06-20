@@ -1,0 +1,58 @@
+.container {
+    background-image: url('../../assets/images/xmastoy.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginTitle {
+    color: #228B22;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    color: #228B22;
+}
+
+.label input {
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 300px;
+    font-size: 16px;
+}
+
+.button {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #0077cc;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0066b2;
+}
